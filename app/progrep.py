@@ -69,5 +69,5 @@ async def edit_progrep(progrep: Progrep):
     if not progrep_found:
         return "Akun progrep tidak ditemukan."
     raise HTTPException(
-        status_code = 404, detail=f'Pembaruan akun gagal.'
+        status_code = 404, detail=f'Pembaruan gagal.'
     )
